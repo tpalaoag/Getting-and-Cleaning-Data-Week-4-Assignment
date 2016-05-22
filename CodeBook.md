@@ -4,56 +4,56 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 * tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 ## Only all the variables estimated from mean and standard deviation in the tidy set were kept.
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 ## The data were averaged based on assigned activity group.
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 ## The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
-41 tGravityAcc-mean()-X
-42 tGravityAcc-mean()-Y
-43 tGravityAcc-mean()-Z
-44 tGravityAcc-std()-X
-45 tGravityAcc-std()-Y
-46 tGravityAcc-std()-Z
-81 tBodyAccJerk-mean()-X
-82 tBodyAccJerk-mean()-Y
-83 tBodyAccJerk-mean()-Z
-84 tBodyAccJerk-std()-X
-85 tBodyAccJerk-std()-Y
-86 tBodyAccJerk-std()-Z
-121 tBodyGyro-mean()-X
+1. tBodyAcc-mean()-X
+2. tBodyAcc-mean()-Y
+3. tBodyAcc-mean()-Z
+4. tBodyAcc-std()-X
+5. tBodyAcc-std()-Y
+6. tBodyAcc-std()-Z
+7. tGravityAcc-mean()-X
+8. tGravityAcc-mean()-Y
+9. tGravityAcc-mean()-Z
+10. tGravityAcc-std()-X
+11. tGravityAcc-std()-Y
+12. tGravityAcc-std()-Z
+13. tBodyAccJerk-mean()-X
+14. tBodyAccJerk-mean()-Y
+15. tBodyAccJerk-mean()-Z
+16. tBodyAccJerk-std()-X
+17. tBodyAccJerk-std()-Y
+18. tBodyAccJerk-std()-Z
+19. tBodyGyro-mean()-X
 122 tBodyGyro-mean()-Y
 123 tBodyGyro-mean()-Z
 124 tBodyGyro-std()-X
