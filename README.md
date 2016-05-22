@@ -13,6 +13,7 @@ The new generated dataset contained variables calculated based on the mean and s
 
 ## The code was written based on the instruction of this assignment
 Read all the data and data names into R environment first.
+
 1. Merges the training and the test sets to create one data set.
 Use command rbind to combine training and test set
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
